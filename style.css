@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.calculator-container {
+    background: white;
+    text-align: center;
+    width: 400px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px ;
+    border: 1px solid #cccccc;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+}
